@@ -1,0 +1,16 @@
+Google.Chrome
+LogMeIn.LastPass
+Yubico.Authenticator
+Twilio.Authy
+Doist.Todoist
+Microsoft.PowerToys
+Microsoft.VisualStudioCode
+Joplin.Joplin
+JGraph.Draw
+7zip.7zip
+WinMerge.WinMerge
+Freeplane.Freeplane
+EDRLab.Thorium
+JohnMacFarlane.Pandoc
+Zoom.Zoom
+GnuWin32.Grep

@@ -1,1 +1,14 @@
-
+Git.Git
+Postman.Postman
+Insomnia.Insomnia
+GitHub.GitHubDesktop
+Python.Python.3
+OpenJS.NodeJS.LTS
+Microsoft.AzureCLI
+Docker.DockerDesktop
+Microsoft.AzureFunctionsCoreTools
+Microsoft.AzureDataStudio
+Microsoft.SQLServerManagementStudio
+GnuWin32.Make
+GoLang.Go
+Microsoft.VisualStudio.2019.Enterprise

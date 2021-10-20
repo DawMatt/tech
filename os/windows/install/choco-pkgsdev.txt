@@ -1,0 +1,6 @@
+jq
+nuget.commandline
+protoc
+servicebusexplorer
+visualstudio2017-workload-vctools
+visualstudio2017buildtools
