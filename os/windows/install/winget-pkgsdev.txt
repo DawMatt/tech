@@ -1,6 +1,5 @@
 Git.Git
 Postman.Postman
-Insomnia.Insomnia
 GitHub.GitHubDesktop
 Python.Python.3
 OpenJS.NodeJS.LTS
