@@ -81,6 +81,11 @@ Test will complete after Sun Oct 24 20:16:04 2021
 7. Check results of the test
 ```
 sudo smartctl --all  /dev/sdq
+...
+SMART Self-test log structure revision number 1
+Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
+# 1  Extended offline    Completed without error       00%         8         -
+# 2  Short offline       Completed without error       00%         0         -
 ```
 8. Check the results of specific SMART metrics indicating general disk health. Last value on the line is the metric.
 ```
@@ -88,5 +93,10 @@ sudo smartctl -a /dev/sdq | grep Current_Pending_Sector  # Pending sector reallo
 sudo smartctl -a /dev/sdq | grep Reallocated_Sector_Ct   # Reallocated sector count
 sudo smartctl -a /dev/sdq | grep UDMA_CRC_Error_Count    # UDMA CRC errors
 sudo smartctl -a /dev/sdq | grep Power_On_Hours          # HDD and SSD hours
+...
+197 Current_Pending_Sector                                           0x0032   200   200   000    Old_age   Always       -       0
+  5 Reallocated_Sector_Ct                                            0x0033   200   200   140    Pre-fail  Always       -       0
+199 UDMA_CRC_Error_Count                                             0x0032   200   200   000    Old_age   Always       -       0
+  9 Power_On_Hours                                                   0x0032   100   100   000    Old_age   Always       -       9
 ```
 9. If desired, repeat steps 6 to 8 to burn in the device for longer.
