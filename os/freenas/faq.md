@@ -1,5 +1,9 @@
 # FAQ
 
+## Q: How do I create a USB drive or SSD boot disk?
+
+See the [disks](disks.md) page for a step by step guide.
+
 ## Q: Recommended resources?
 
 A:
