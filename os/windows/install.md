@@ -1,4 +1,6 @@
-# Install - Windows Package and Application Management
+# Install
+
+## Windows Package and Application Management
 
 The package and application management tools utilised (in order of preference) are:
 
@@ -12,3 +14,9 @@ Chocolatey has been around for longer and has a number of packages not yet avail
 Both have their merits but we are utilising winget as our primary choice. We expect that winget will have wider take up and over time the package repository will expand to the point that choco will no longer be required as well. In addition we expect winget to be more acceptable to IT departments so is more likely to be available on both work and personal devices.
 
 Please refer to the links above for further information.
+
+## Manual
+
+In some situations we need to operate in a constrained environment and it may not be possible to utilise standard package management applications. In this case we'll need to adapt our approach to manually install applications within the constraints.
+
+Suggestions for manual installations can be found [here](install/manual.md).
